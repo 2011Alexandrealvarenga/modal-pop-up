@@ -1,0 +1,41 @@
+  .modal-center {
+    position: fixed;
+    z-index: 99999999;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .modal-center .center {
+    position: relative;
+    top: 10%;
+    width: 30%;
+    min-width: 400px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    margin: auto;
+  }
+  @media screen and (max-width: 992px) {
+  	.modal-center .center { min-width: 340px;}
+  }
+  .modal-center .close {
+    position: absolute;
+    z-index: 9999999;
+    top: -20px;
+    right: 45%;
+    opacity: 1;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    background: white;
+    color: black;
+    padding: 4px 10px;
+    font-size: 36px;
+    line-height: 36px;
+    transform: rotate(45deg);
+    transform: -webkit-rotate(45deg);
+    transform: -moz-rotate(45deg);
+    transform: -o-rotate(45deg);
+    cursor: pointer;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.5);
+  }
