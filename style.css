@@ -4,6 +4,7 @@
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.4);
+    top: 0;
   }
   .modal-center .center {
     position: relative;
@@ -17,8 +18,7 @@
   }
   @media screen and (max-width: 992px) {
   	.modal-center .center { min-width: 340px;}
-  }
-  .modal-center .close {
+  }  .modal-center .close {
     position: absolute;
     z-index: 9999999;
     top: -20px;
